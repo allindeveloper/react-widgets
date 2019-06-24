@@ -8,7 +8,6 @@
   ],
   "keywords": [
     "ReactJs",
-    "SVG",
     "Wrapper",
     "JavaScript",
     "Open Source",
@@ -44,7 +43,7 @@
     "jest": "^24.8.0"
   },
   "scripts": {
-    "start": "set PORT=3006 && PORT=3006 react-scripts start",
+    "start": "set PORT=3006 && react-scripts start",
     "build-examples": "react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject",

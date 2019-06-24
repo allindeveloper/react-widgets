@@ -6,7 +6,7 @@ import "./style.css";
 import "./cards.css";
 
 /**
- * Class CardWidgets
+ * Class CardWidget
  * @param themeColor theme for the Card Widget.
  * @param chartBgColor the background color for the chart
  * @param renderCharts specify if you want to render a chart underneath the cards
@@ -49,7 +49,7 @@ class CardWidgets extends Component {
       let _chartData = cardData[i]._chartdata;
       let _shouldShowButton = viewMoreButton;
       indents.push(
-        <div className={`w3-col  w3-${color} card card-1 w3-padding`} key={i}>
+        <div className={`w3-col   w3-${color} card card-1 w3-padding`} key={i}>
           <h2 className="w3-large">{caption}</h2>
           <div>
             <p className="w3-medium">{number}</p>

@@ -1,8 +1,8 @@
 import CardWidgets from "./components/CardWidgets";
-import Test from "./components/Test";
+import PopUpFormWidgets from "./components/PopUpFormWidget";
 import "./index.css";
-
+// import "./animate.min.css"
 export {
   CardWidgets,
-  Test
+  PopUpFormWidgets
 };
